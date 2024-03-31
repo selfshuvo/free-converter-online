@@ -4,9 +4,9 @@ const output = document.getElementById("output");
 function calculation() {
     const inch = input.value;
     const feet = inch / 12;
-    console.log(feet);
+    const feetTwoDecimal = feet.toFixed(2);
 
-    output.innerText = feet;
+    output.innerText = feetTwoDecimal;
 }
 
 

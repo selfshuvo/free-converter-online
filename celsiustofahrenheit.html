@@ -28,7 +28,7 @@
             <main class="bg-slate-200 max-w-5xl w-full h-[calc(100vh-150px)] mx-auto rounded-lg flex flex-col items-center justify-center gap-4 shadow-md shadow-pink-500">
                 <!-- inpur starts -->
                 <div class="flex flex-row gap-2 items-center">
-                    <input class="py-3 text-pink-500 rounded-md px-4 outline-none border border-pink-500" type="text" name="" id="">
+                    <input class="py-3 text-pink-500 text-center rounded-md px-4 outline-none border border-pink-500" type="text" name="" id="input" onkeyup="temperatureCalculator()">
                     <p class="text-xl font-bold ">Celsius</p>
                 </div>
 
@@ -36,7 +36,7 @@
 
                 <!-- Output starts -->
                 <div class="flex flex-row gap-3 items-center">
-                    <h2 class="text-3xl font-bold text-pink-500">100</h2>
+                    <h2 id="output" class="text-3xl font-bold text-pink-500">0</h2>
                     <p class="text-xl font-bold ">Fahrenheit</p>
                 </div>
 
